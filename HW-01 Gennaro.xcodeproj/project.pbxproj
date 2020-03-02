@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		203AEDB8240D798C0041990B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203AEDB7240D798C0041990B /* AppDelegate.swift */; };
+		203AEDBA240D798C0041990B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203AEDB9240D798C0041990B /* SceneDelegate.swift */; };
+		203AEDBC240D798C0041990B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203AEDBB240D798C0041990B /* ViewController.swift */; };
+		203AEDBF240D798C0041990B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203AEDBD240D798C0041990B /* Main.storyboard */; };
+		203AEDC1240D79940041990B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203AEDC0240D79940041990B /* Assets.xcassets */; };
+		203AEDC4240D79940041990B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203AEDC2240D79940041990B /* LaunchScreen.storyboard */; };
+		203AEDCF240D79950041990B /* HW_01_GennaroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203AEDCE240D79950041990B /* HW_01_GennaroTests.swift */; };
+		203AEDDA240D79950041990B /* HW_01_GennaroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203AEDD9240D79950041990B /* HW_01_GennaroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		203AEDCB240D79950041990B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203AEDAC240D798C0041990B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203AEDB3240D798C0041990B;
+			remoteInfo = "HW-01 Gennaro";
+		};
+		203AEDD6240D79950041990B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 203AEDAC240D798C0041990B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 203AEDB3240D798C0041990B;
+			remoteInfo = "HW-01 Gennaro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		203AEDB4240D798C0041990B /* HW-01 Gennaro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW-01 Gennaro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		203AEDB7240D798C0041990B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		203AEDB9240D798C0041990B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		203AEDBB240D798C0041990B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		203AEDBE240D798C0041990B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		203AEDC0240D79940041990B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		203AEDC3240D79940041990B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		203AEDC5240D79940041990B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203AEDCA240D79950041990B /* HW-01 GennaroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW-01 GennaroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		203AEDCE240D79950041990B /* HW_01_GennaroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_01_GennaroTests.swift; sourceTree = "<group>"; };
+		203AEDD0240D79950041990B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203AEDD5240D79950041990B /* HW-01 GennaroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW-01 GennaroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		203AEDD9240D79950041990B /* HW_01_GennaroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_01_GennaroUITests.swift; sourceTree = "<group>"; };
+		203AEDDB240D79950041990B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		203AEDB1240D798C0041990B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203AEDC7240D79950041990B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203AEDD2240D79950041990B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		203AEDAB240D798C0041990B = {
+			isa = PBXGroup;
+			children = (
+				203AEDB6240D798C0041990B /* HW-01 Gennaro */,
+				203AEDCD240D79950041990B /* HW-01 GennaroTests */,
+				203AEDD8240D79950041990B /* HW-01 GennaroUITests */,
+				203AEDB5240D798C0041990B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		203AEDB5240D798C0041990B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				203AEDB4240D798C0041990B /* HW-01 Gennaro.app */,
+				203AEDCA240D79950041990B /* HW-01 GennaroTests.xctest */,
+				203AEDD5240D79950041990B /* HW-01 GennaroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		203AEDB6240D798C0041990B /* HW-01 Gennaro */ = {
+			isa = PBXGroup;
+			children = (
+				203AEDB7240D798C0041990B /* AppDelegate.swift */,
+				203AEDB9240D798C0041990B /* SceneDelegate.swift */,
+				203AEDBB240D798C0041990B /* ViewController.swift */,
+				203AEDBD240D798C0041990B /* Main.storyboard */,
+				203AEDC0240D79940041990B /* Assets.xcassets */,
+				203AEDC2240D79940041990B /* LaunchScreen.storyboard */,
+				203AEDC5240D79940041990B /* Info.plist */,
+			);
+			path = "HW-01 Gennaro";
+			sourceTree = "<group>";
+		};
+		203AEDCD240D79950041990B /* HW-01 GennaroTests */ = {
+			isa = PBXGroup;
+			children = (
+				203AEDCE240D79950041990B /* HW_01_GennaroTests.swift */,
+				203AEDD0240D79950041990B /* Info.plist */,
+			);
+			path = "HW-01 GennaroTests";
+			sourceTree = "<group>";
+		};
+		203AEDD8240D79950041990B /* HW-01 GennaroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				203AEDD9240D79950041990B /* HW_01_GennaroUITests.swift */,
+				203AEDDB240D79950041990B /* Info.plist */,
+			);
+			path = "HW-01 GennaroUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		203AEDB3240D798C0041990B /* HW-01 Gennaro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203AEDDE240D79950041990B /* Build configuration list for PBXNativeTarget "HW-01 Gennaro" */;
+			buildPhases = (
+				203AEDB0240D798C0041990B /* Sources */,
+				203AEDB1240D798C0041990B /* Frameworks */,
+				203AEDB2240D798C0041990B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW-01 Gennaro";
+			productName = "HW-01 Gennaro";
+			productReference = 203AEDB4240D798C0041990B /* HW-01 Gennaro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		203AEDC9240D79950041990B /* HW-01 GennaroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203AEDE1240D79950041990B /* Build configuration list for PBXNativeTarget "HW-01 GennaroTests" */;
+			buildPhases = (
+				203AEDC6240D79950041990B /* Sources */,
+				203AEDC7240D79950041990B /* Frameworks */,
+				203AEDC8240D79950041990B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				203AEDCC240D79950041990B /* PBXTargetDependency */,
+			);
+			name = "HW-01 GennaroTests";
+			productName = "HW-01 GennaroTests";
+			productReference = 203AEDCA240D79950041990B /* HW-01 GennaroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		203AEDD4240D79950041990B /* HW-01 GennaroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203AEDE4240D79950041990B /* Build configuration list for PBXNativeTarget "HW-01 GennaroUITests" */;
+			buildPhases = (
+				203AEDD1240D79950041990B /* Sources */,
+				203AEDD2240D79950041990B /* Frameworks */,
+				203AEDD3240D79950041990B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				203AEDD7240D79950041990B /* PBXTargetDependency */,
+			);
+			name = "HW-01 GennaroUITests";
+			productName = "HW-01 GennaroUITests";
+			productReference = 203AEDD5240D79950041990B /* HW-01 GennaroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		203AEDAC240D798C0041990B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Olivia Gennaro";
+				TargetAttributes = {
+					203AEDB3240D798C0041990B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					203AEDC9240D79950041990B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 203AEDB3240D798C0041990B;
+					};
+					203AEDD4240D79950041990B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 203AEDB3240D798C0041990B;
+					};
+				};
+			};
+			buildConfigurationList = 203AEDAF240D798C0041990B /* Build configuration list for PBXProject "HW-01 Gennaro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 203AEDAB240D798C0041990B;
+			productRefGroup = 203AEDB5240D798C0041990B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				203AEDB3240D798C0041990B /* HW-01 Gennaro */,
+				203AEDC9240D79950041990B /* HW-01 GennaroTests */,
+				203AEDD4240D79950041990B /* HW-01 GennaroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		203AEDB2240D798C0041990B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203AEDC4240D79940041990B /* LaunchScreen.storyboard in Resources */,
+				203AEDC1240D79940041990B /* Assets.xcassets in Resources */,
+				203AEDBF240D798C0041990B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203AEDC8240D79950041990B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203AEDD3240D79950041990B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		203AEDB0240D798C0041990B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203AEDBC240D798C0041990B /* ViewController.swift in Sources */,
+				203AEDB8240D798C0041990B /* AppDelegate.swift in Sources */,
+				203AEDBA240D798C0041990B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203AEDC6240D79950041990B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203AEDCF240D79950041990B /* HW_01_GennaroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		203AEDD1240D79950041990B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203AEDDA240D79950041990B /* HW_01_GennaroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		203AEDCC240D79950041990B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203AEDB3240D798C0041990B /* HW-01 Gennaro */;
+			targetProxy = 203AEDCB240D79950041990B /* PBXContainerItemProxy */;
+		};
+		203AEDD7240D79950041990B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 203AEDB3240D798C0041990B /* HW-01 Gennaro */;
+			targetProxy = 203AEDD6240D79950041990B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		203AEDBD240D798C0041990B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				203AEDBE240D798C0041990B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		203AEDC2240D79940041990B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				203AEDC3240D79940041990B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		203AEDDC240D79950041990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		203AEDDD240D79950041990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		203AEDDF240D79950041990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR5D43B664;
+				INFOPLIST_FILE = "HW-01 Gennaro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Olivia.Gennaro.HW-01-Gennaro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		203AEDE0240D79950041990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR5D43B664;
+				INFOPLIST_FILE = "HW-01 Gennaro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Olivia.Gennaro.HW-01-Gennaro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		203AEDE2240D79950041990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR5D43B664;
+				INFOPLIST_FILE = "HW-01 GennaroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Olivia.Gennaro.HW-01-GennaroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW-01 Gennaro.app/HW-01 Gennaro";
+			};
+			name = Debug;
+		};
+		203AEDE3240D79950041990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR5D43B664;
+				INFOPLIST_FILE = "HW-01 GennaroTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Olivia.Gennaro.HW-01-GennaroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HW-01 Gennaro.app/HW-01 Gennaro";
+			};
+			name = Release;
+		};
+		203AEDE5240D79950041990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR5D43B664;
+				INFOPLIST_FILE = "HW-01 GennaroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Olivia.Gennaro.HW-01-GennaroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW-01 Gennaro";
+			};
+			name = Debug;
+		};
+		203AEDE6240D79950041990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR5D43B664;
+				INFOPLIST_FILE = "HW-01 GennaroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Olivia.Gennaro.HW-01-GennaroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HW-01 Gennaro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		203AEDAF240D798C0041990B /* Build configuration list for PBXProject "HW-01 Gennaro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203AEDDC240D79950041990B /* Debug */,
+				203AEDDD240D79950041990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203AEDDE240D79950041990B /* Build configuration list for PBXNativeTarget "HW-01 Gennaro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203AEDDF240D79950041990B /* Debug */,
+				203AEDE0240D79950041990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203AEDE1240D79950041990B /* Build configuration list for PBXNativeTarget "HW-01 GennaroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203AEDE2240D79950041990B /* Debug */,
+				203AEDE3240D79950041990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203AEDE4240D79950041990B /* Build configuration list for PBXNativeTarget "HW-01 GennaroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203AEDE5240D79950041990B /* Debug */,
+				203AEDE6240D79950041990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 203AEDAC240D798C0041990B /* Project object */;
+}
