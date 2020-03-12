@@ -10,11 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Properties:
+   
+    @IBOutlet weak var publicEntertainmentLevel: UISlider!
+    
+    @IBOutlet weak var publicEntertainmentLabel: UILabel!
+    
+    
+    @IBAction func oliviaAnnoyanceStepper(_ sender: UIStepper) {
+        publicEntertainmentLevel.value = Float(sender.value)
+        publicEntertainmentLabel.text = Int(sender.value).description    }
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        // Actions:
+        
+    
+        
+    
     }
 
 
 }
-
